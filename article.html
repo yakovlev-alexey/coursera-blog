@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#table-of-contents">
 
   <nav class="navbar navbar-dark navbar-expand-sm">
     <div class="container">
@@ -43,24 +43,26 @@
   <div class="container">
 
     <div class="row">
-      <div class="d-none d-lg-block col-lg-2 pt-2  ">
-        <ul class="table-of-contents list-unstyled">
-          <li>
-            <a class="text-reset font-weight-bold" href="#p-1">
-              Nunc sem velit, suscipit non
-            </a>
-          </li>
-          <li>
-            <a class="text-reset" href="#p-2">
-              Etiam hendrerit massa a enim dapibus cursus. Nunc
-            </a>
-          </li>
-          <li>
-            <a class="text-reset" href="#p-3">
-              Morbi sed blandit urna. Vestibulum vehicula malesuada
-            </a>
-          </li>
-        </ul>
+      <div class="d-none d-lg-block col-lg-2 pt-2">
+        <div id="table-of-contents" class="navbar navbar-light">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#p-1">
+                Nunc sem velit, suscipit non
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#p-2">
+                Etiam hendrerit massa a enim dapibus cursus. Nunc
+              </a>
+            </li>
+            <li class="nav-item text-reset">
+              <a class="nav-link text-reset" href="#p-3">
+                Morbi sed blandit urna. Vestibulum vehicula malesuada
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="col-12 col-lg-8 article-container">

@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-.navbar {
+nav.navbar {
     background-color: $primary-clr;
     z-index: 10000;
 }
@@ -145,10 +145,33 @@ body {
   }
 }
 
+#table-of-contents {
 
-.table-of-contents {
+  max-width: 125px;
+  @media(min-width: 1200px) {
+    max-width: 150px;
+  }
+
+  position: sticky;
+
+  top: 0px;
+
   li {
     margin-bottom: 5px;
     font-size: 85%;
   }
+
+  a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a.active {
+    font-weight: bold;
+  }
+
 }

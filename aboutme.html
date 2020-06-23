@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#table-of-contents">
 
   <nav class="navbar navbar-dark navbar-expand-sm">
     <div class="container">
@@ -44,18 +44,20 @@
 
     <div class="row">
       <div class="d-none d-lg-block col-lg-2 pt-2  ">
-        <ul class="table-of-contents list-unstyled">
-          <li>
-            <a class="text-reset font-weight-bold" href="#p-1">
+        <div id="table-of-contents" class="navbar navbar-light">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#p-1">
               My skills
             </a>
           </li>
-          <li>
-            <a class="text-reset" href="#p-2">
+          <li class="nav-item">
+            <a class="nav-link text-reset" href="#p-2">
               Additional info
             </a>
           </li>
         </ul>
+        </div>
       </div>
 
       <div class="col-12 col-lg-8 article-container">
