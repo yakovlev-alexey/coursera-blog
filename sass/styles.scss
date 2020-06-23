@@ -58,6 +58,11 @@ body {
   padding-right: 10px;
 }
 
+.card {
+  -webkit-box-shadow: 0px 0px 7px 7px rgba(0,0,0,0.03);
+  -moz-box-shadow: 0px 0px 7px 7px rgba(0,0,0,0.03);
+  box-shadow: 0px 0px 7px 7px rgba(0,0,0,0.03);
+}
 
 .card-content {
 
