@@ -56,11 +56,8 @@ body {
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  // :hover {
-  //   padding-left: 5px;
-  //   padding-right: 5px;
-  // }
 }
+
 
 .card-content {
 
@@ -99,6 +96,10 @@ body {
     .card-description {
       padding: 10px;
     }
+}
+
+.card-content:hover {
+  transform: scale(1.03);
 }
 
 .footer {

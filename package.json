@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-flatmap": "^1.0.2",
@@ -31,7 +32,7 @@
     "gulp-image": "^6.2.0",
     "gulp-rev": "^9.0.0",
     "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
     "gulp-usemin": "^0.3.30"
   }
 }

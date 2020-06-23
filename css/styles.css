@@ -62,6 +62,9 @@ body {
   .card-content .card-description {
     padding: 10px; }
 
+.card-content:hover {
+  transform: scale(1.03); }
+
 .footer {
   background-color: #BE3B99;
   z-index: 10000; }
